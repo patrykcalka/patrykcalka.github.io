@@ -1,5 +1,8 @@
 body {
     background-color: #709ddb54;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 div.gallery {
@@ -85,6 +88,11 @@ div.desc {
 
 .title {
     text-align: center;
+    font-size: 66px;
+}
+
+.center {
+    text-align: center;
 }
 
 table, th, td {
@@ -94,7 +102,19 @@ table, th, td {
     text-align: center;
 }
 
-/*Tic-Tac_Toe*/
+div.footer{
+    flex-direction: row;
+    font-size: 24px;
+    height: 60px;
+    position: absolute;
+    bottom: 25px;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/*Tic-Tac-Toe*/
 
 div.middle{
     border-radius: 30px;
@@ -121,4 +141,21 @@ div.box {
     justify-content: center;
     align-items: center;
     font-size: 2rem
+}
+
+.button {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.color {
+    border-color: #2196F3;
+    color: dodgerblue
+}
+.color:hover {
+    background: #2196F3;
+    color: white;
 }
