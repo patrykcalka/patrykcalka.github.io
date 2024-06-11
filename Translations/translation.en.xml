@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-    <data name="first"><value>First</value></data>
-    <data name="second"><value>Second</value></data>
-    <data name="third"><value>Third</value></data>
+    <data name="home"><value>Home</value></data>
+    <data name="about"><value>About</value></data>
+    <data name="skills"><value>Skills</value></data>
+    <data name="portfolio"><value>Portfolio</value></data>
+    <data name="contact"><value>Contact</value></data>
+    <data name="language"><value>Language</value></data>
+
+    <data name="greeting"><value>Hi, I'm</value></data>
+    <data name="name"><value>Patryk Całka</value></data>
+    <data name="position"><value>And I'm Computer Science Student</value></data>
+    <data name="description"><value>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</value></data>
+
+    <data name="description2"><value>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</value></data>
+    <data name="button"><value>Read more</value></data>
+
+    <data name="descriptionJava"><value>Java + Spring Boot</value></data>
+    <data name="descriptionPython"><value>Python + </value></data>
+    <data name="descriptionSQL"><value>SQL + </value></data>
 </root>
