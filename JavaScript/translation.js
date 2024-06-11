@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function loadAndApplyTranslations(language) {
-    const filepath = `../Translations/translation.${language}.resx`;
+    const filepath = `Translations/translation.${language}.xml`;
     console.log(filepath);
     loadXML(filepath, function (xml) {
         const translations = parseResx(xml);
