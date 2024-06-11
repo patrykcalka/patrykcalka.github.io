@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="first"><value>First</value></data>
+    <data name="second"><value>Second</value></data>
+    <data name="third"><value>Third</value></data>
+</root>
