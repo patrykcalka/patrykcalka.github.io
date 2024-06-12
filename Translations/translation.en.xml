@@ -18,4 +18,11 @@
     <data name="descriptionJava"><value>Java + Spring Boot</value></data>
     <data name="descriptionPython"><value>Python + </value></data>
     <data name="descriptionSQL"><value>SQL + </value></data>
+
+    <data name="project1Title"><value>Java</value></data>
+    <data name="project1Description"><value>Java, Java, Java</value></data>
+    <data name="project2Title"><value>Java</value></data>
+    <data name="project2Description"><value>Java, Java, Java</value></data>
+    <data name="project3Title"><value>Java</value></data>
+    <data name="project3Description"><value>Java, Java, Java</value></data>
 </root>
