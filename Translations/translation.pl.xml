@@ -5,26 +5,47 @@
     <data name="skills"><value>Umiejętności</value></data>
     <data name="portfolio"><value>Portfolio</value></data>
     <data name="contact"><value>Kontakt</value></data>
-    <data name="language"><value>Język</value></data>
+    <data name="languages"><value>Język</value></data>
 
     <data name="greeting"><value>Cześć, nazywam się</value></data>
     <data name="name"><value>Patryk Całka</value></data>
-    <data name="position"><value>Jestem studentem Informatyki</value></data>
-    <data name="description"><value>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</value></data>
+    <data name="position"><value>I jestem Studentem Informatyki</value></data>
+    <data name="description"><value>Pasjonat programowania z doświadczeniem w językach Java, Python i JavaScript, gotowy do udziału w innowacyjnych projektach.</value></data>
 
-    <data name="description2"><value>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</value></data>
-    <data name="button"><value>Dowiedz się więcej</value></data>
+    <data name="aboutMe"><value>O mnie</value></data>
+    <data name="descriptionAboutMe"><value>
+        Ambitny student informatyki z pasją do programowania i solidną wiedzą w zakresie różnych języków programowania oraz frameworków. Biegły w Java z Spring Boot, Python z Django, HTML, CSS, JavaScript i Angular.
+        Chętny do zastosowania i rozwijania swoich umiejętności poprzez praktyczne doświadczenia i współpracę przy projektach.
+        Znany z umiejętności rozwiązywania problemów, dbałości o szczegóły oraz nieustannego dążenia do nauki i doskonalenia się.
+        Poszukuję możliwości, aby przyczynić się do innowacyjnych projektów i rozwijać się zawodowo w branży technologicznej.
+    </value></data>
 
     <data name="descriptionJava"><value>Java + Spring Boot</value></data>
     <data name="descriptionPython"><value>Python + Django</value></data>
-    <data name="descriptionSQL"><value>SQL + </value></data>
+    <data name="descriptionHTML"><value>HTML + CSS</value></data>
+    <data name="descriptionJS"><value>JS + Angular</value></data>
 
-    <data name="project1Title"><value>Java</value></data>
-    <data name="project1Description"><value>Java, Java, Java</value></data>
-    <data name="project2Title"><value>Java</value></data>
-    <data name="project2Description"><value>Java, Java, Java</value></data>
-    <data name="project3Title"><value>Java</value></data>
-    <data name="project3Description"><value>Java, Java, Java</value></data>
+    <data name="project1Title"><value>System zarządzania księgarnią internetową.</value></data>
+    <data name="project1Description"><value>Opracowano kompleksowy system zarządzania księgarnią internetową z wykorzystaniem Java i Spring Boot.
+        Aplikacja wspiera uwierzytelnianie użytkowników, zarządzanie katalogiem książek i realizację zamówień.
+        Wdrożone interfejsy API RESTful do komunikacji pomiędzy frontendem a backendem, zapewniające bezpieczną i wydajną obsługę danych.
+        Zintegrowana baza danych MySQL do przechowywania informacji o użytkownikach, szczegółów książek i zapisów zamówień.</value></data>
+    <data name="project2Title"><value>Aplikacja do zarządzania finansami osobistymi.</value></data>
+    <data name="project2Description"><value>Stworzony moduł internetowy do śledzenia finansów osobistych przy użyciu języka Python i Django.
+        Aplikacja pozwala użytkownikom śledzić swoje dochody, wydatki i oszczędności.
+        Zaprojektowano responsywny interfejs użytkownika i wdrożono ORM Django w celu zapewnienia wydajnych interakcji z bazami danych.
+        Wdrożono aplikację na Heroku z bazą danych PostgreSQL.</value></data>
+    <data name="project3Title"><value>Panel zarządzania zadaniami.</value></data>
+    <data name="project3Description"><value>Opracowany panel do zarządzania zadaniami przy użyciu HTML, CSS, JavaScript i Angular.
+        Aplikacja pomaga zespołom efektywnie zarządzać projektami i zadaniami.
+        Zaimplementowano interfejs „przeciągnij i upuść” do organizacji zadań oraz system powiadamiania o aktualizacjach w czasie rzeczywistym.</value></data>
 
-    <data name="copyright"><value>Prawa Autorskie 2024 Autorstwa Patryka Całki | Wszelkie prawa zastrzeżone.</value></data>
+    <data name="fullName"><value>Imię i Nazwisko</value></data>
+    <data name="email"><value>Adres email</value></data>
+    <data name="number"><value>Numer telefonu</value></data>
+    <data name="emailSubject"><value>Temat wiadomości</value></data>
+    <data name="message"><value>Twoja wiadomość</value></data>
+    <data name="BtnMessage"><value>Wyślij wiadomość</value></data>
+
+    <data name="copyright"><value>Prawa Autorskie 2024 | Autorstwa Patryka Całki | Wszelkie prawa zastrzeżone.</value></data>
 </root>

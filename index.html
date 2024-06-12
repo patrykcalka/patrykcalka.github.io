@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Styles/style.css">
-    <script src="JavaScript/translation.js" rel="script"></script>
-    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="JavaScript/animations.js" rel="script"></script>
+    <script src="JavaScript/translation.js" rel="script"></script>
     <title>Portfolio | Patryk Całka</title>
 </head>
 <body>
@@ -17,12 +17,13 @@
         <i class="fa-solid fa-bars" id="menu-icon"></i>
 
         <nav class="navbar">
-            <a href="#home" class="active" data-translate-key="home">Home</a>
-            <a href="#about" data-translate-key="about">About</a>
-            <a href="#skills" data-translate-key="skills">Skills</a>
-            <a href="#portfolio" data-translate-key="portfolio">Portfolio</a>
-            <a href="#contact" data-translate-key="contact">Contact</a>
-            <a href="#" data-translate-key="language">Language</a>
+            <a href="#home" class="active" data-translate-key="home"></a>
+            <a href="#about" data-translate-key="about"></a>
+            <a href="#skills" data-translate-key="skills"></a>
+            <a href="#portfolio" data-translate-key="portfolio"></a>
+            <a href="#contact" data-translate-key="contact"></a>
+            <a href="#" class="dropdown-item" data-language="en">EN</a>
+            <a href="#" class="dropdown-item" data-language="pl">PL</a>
         </nav>
     </header>
 
@@ -31,29 +32,24 @@
             <div><h3 data-translate-key="greeting"></h3></div>
             <div><h1 data-translate-key="name"></h1></div>
             <div><h3><span data-translate-key="position"></span></h3></div>
-
             <div><p data-translate-key="description"></p></div>
+
             <div class="social-media">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.github.com/"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
-        </div>
-        <div class="home-img">
-            <img src="Images/avatar.jpg" alt="">
         </div>
     </section>
 
     <section class="about" id="about">
         <div class="about-img">
-            <img src="Images/avatar.jpg" alt="">
+            <img src="Images/avatar2.jpg" alt="">
         </div>
 
         <div class="about-content">
-            <div><h2 class="heading" data-translate-key="about"></h2></div>
-            <div><h3 data-translate-key="position"></h3></div>
-            <div><p data-translate-key="description2"></p></div>
-            <a href="#" class="btn" data-translate-key="button"></a>
+            <div><h2 class="heading" data-translate-key="aboutMe"></h2></div>
+            <div><p data-translate-key="descriptionAboutMe"></p></div>
         </div>
     </section>
 
@@ -65,22 +61,26 @@
                 <i class="fa-brands fa-java"></i>
                 <h3>Java</h3>
                 <div><p data-translate-key="descriptionJava"></p></div>
-                <a href="#" class="btn" data-translate-key="button"></a>
             </div>
 
             <div class="skills-box">
                 <i class="fa-brands fa-python"></i>
                 <h3>Python</h3>
                 <div><p data-translate-key="descriptionPython"></p></div>
-                <a href="#" class="btn" data-translate-key="button"></a>
             </div>
 
             <div class="skills-box">
-                <i class="fa-solid fa-database"></i>
-                <h3>SQL</h3>
-                <div><p data-translate-key="descriptionSQL"></p></div>
-                <a href="#" class="btn" data-translate-key="button"></a>
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML</h3>
+                <div><p data-translate-key="descriptionHTML"></p></div>
             </div>
+
+            <div class="skills-box">
+                <i class="fa-brands fa-js"></i>
+                <h3>JavaScript</h3>
+                <div><p data-translate-key="descriptionJS"></p></div>
+            </div>
+
         </div>
     </section>
 
@@ -88,28 +88,26 @@
         <div><h2 class="heading" data-translate-key="portfolio"></h2></div>
 
         <div class="portfolio-container">
+
             <div class="portfolio-box">
-                <img src="Images/avatar.jpg" alt="">
-                <div class="portfolio-layer">
-                    <div><h4 data-translate-key="project1Title"></h4></div>
-                    <div><p data-translate-key="project1Description"></p></div>
-                    <i class="fa-solid fa-up-right-from-square"></i>
-                </div>
-            </div>
-            <div class="portfolio-box">
-                <img src="Images/avatar.jpg" alt="">
+                <img src="Images/Finances.jpg" alt="">
                 <div class="portfolio-layer">
                     <div><h4 data-translate-key="project2Title"></h4></div>
                     <div><p data-translate-key="project2Description"></p></div>
-                    <i class="fa-solid fa-up-right-from-square"></i>
                 </div>
             </div>
             <div class="portfolio-box">
-                <img src="Images/avatar.jpg" alt="">
+                <img src="Images/Bookstore.jpg" alt="">
+                <div class="portfolio-layer">
+                    <div><h4 data-translate-key="project1Title"></h4></div>
+                    <div><p data-translate-key="project1Description"></p></div>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="Images/dashboard.png" alt="">
                 <div class="portfolio-layer">
                     <div><h4 data-translate-key="project3Title"></h4></div>
                     <div><p data-translate-key="project3Description"></p></div>
-                    <i class="fa-solid fa-up-right-from-square"></i>
                 </div>
             </div>
         </div>
@@ -120,23 +118,22 @@
 
         <form action="#">
             <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
+                <input type="text" data-translate-placeholder="fullName">
+                <input type="email" data-translate-placeholder="email">
             </div>
 
             <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
+                <input type="number" data-translate-placeholder="number">
+                <input type="text" data-translate-placeholder="emailSubject">
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message" class="btn">
+            <textarea name="" id="" cols="30" rows="10" data-translate-placeholder="message"></textarea>
+            <input type="submit" data-translate-value="BtnMessage" class="btn">
         </form>
     </section>
 
     <footer class="footer">
         <div class="footer-text">
             <div><p  data-translate-key="copyright"></p></div>
-<!--            <p>Copyright &copy; 2024 by Patryk Całka | All Rights Reserved.</p>-->
         </div>
 
         <div class="footer-iconTop">

@@ -81,6 +81,7 @@ section {
 .home-content h3 {
     font-size: 3.2rem;
     font-weight: 700;
+
 }
 
 .home-content h3:nth-of-type(2) {
@@ -507,4 +508,8 @@ span {
     .contact form .input-box input {
         width: 100%;
     }
+}
+
+.dropdown-item {
+
 }
