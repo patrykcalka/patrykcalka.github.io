@@ -29,7 +29,7 @@ body {
 }
 
 section {
-    min-height: 100vh;
+    min-height: 93vh;
     padding: 10rem 9% 2rem;
 }
 
@@ -140,7 +140,6 @@ span {
     box-shadow: 0 0 1rem var(--main-color);
 }
 
-/*Nieużywane jak na razie*/
 .btn {
     display: inline-block;
     padding: 1rem 2.8rem;
@@ -362,29 +361,24 @@ span {
     font-size: 1.6rem;
 }
 
-.footer-iconTop {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    padding: .8rem 1rem;
-    background: var(--main-color);
-    border-radius: .8rem;
-    transition: .5s ease;
+@media (max-width: 1600px) {
+    .portfolio-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .portfolio {
+        padding-bottom: 7rem;
+    }
 }
 
-.footer-iconTop a:hover {
-    box-shadow: 0 0 2rem var(--main-color);
-
-}
-
-.footer-iconTop a i {
-    font-size: 2.4rem;
-    color: var(--snd-bf-color);
-}
 
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
+    }
+
+    .portfolio-container {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -405,6 +399,10 @@ span {
         padding-bottom: 7rem;
     }
 
+    .portfolio-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .contact {
         min-height: auto;
     }
@@ -414,32 +412,14 @@ span {
     }
 }
 
+@media (max-width: 850px) {
+
+    .portfolio-container {
+        grid-template-columns: 1fr;
+    }
+}
+
 @media (max-width: 768px) {
-    #menu-icon {
-        display: block;
-    }
-
-    .navbar {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        padding: 1rem 3%;
-        background: var(--bg-color);
-        border-top: .1rem solid rgba(0, 0, 0, .2);
-        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-        display: none;
-    }
-
-    .navbar.active {
-        display: block;
-    }
-
-    .navbar a {
-        display: block;
-        font-size: 2rem;
-        margin: 3rem 0;
-    }
 
     .home {
         flex-direction: column;
@@ -480,7 +460,7 @@ span {
     }
 
     .portfolio-container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
     }
 }
 
@@ -512,4 +492,12 @@ span {
 
 .dropdown-item {
 
+}
+
+.nav-link {
+
+}
+
+.hidden {
+    display: none;
 }

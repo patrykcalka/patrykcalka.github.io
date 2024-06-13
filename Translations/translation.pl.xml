@@ -26,19 +26,19 @@
     <data name="descriptionJS"><value>JS + Angular</value></data>
 
     <data name="project1Title"><value>System zarządzania księgarnią internetową.</value></data>
-    <data name="project1Description"><value>Opracowano kompleksowy system zarządzania księgarnią internetową z wykorzystaniem Java i Spring Boot.
+    <data name="project1Description"><value>Opracowałem kompleksowy system zarządzania księgarnią internetową z wykorzystaniem Java i Spring Boot.
         Aplikacja wspiera uwierzytelnianie użytkowników, zarządzanie katalogiem książek i realizację zamówień.
-        Wdrożone interfejsy API RESTful do komunikacji pomiędzy frontendem a backendem, zapewniające bezpieczną i wydajną obsługę danych.
-        Zintegrowana baza danych MySQL do przechowywania informacji o użytkownikach, szczegółów książek i zapisów zamówień.</value></data>
+        Wdrożyłem interfejsy API RESTful do komunikacji pomiędzy frontendem a backendem, zapewniające bezpieczną i wydajną obsługę danych.
+        Zintegrowałem bazę danych MySQL do przechowywania informacji o użytkownikach, szczegółów książek i zapisów zamówień.</value></data>
     <data name="project2Title"><value>Aplikacja do zarządzania finansami osobistymi.</value></data>
-    <data name="project2Description"><value>Stworzony moduł internetowy do śledzenia finansów osobistych przy użyciu języka Python i Django.
+    <data name="project2Description"><value>Stworzyłem moduł internetowy do śledzenia finansów osobistych przy użyciu języka Python i Django.
         Aplikacja pozwala użytkownikom śledzić swoje dochody, wydatki i oszczędności.
-        Zaprojektowano responsywny interfejs użytkownika i wdrożono ORM Django w celu zapewnienia wydajnych interakcji z bazami danych.
-        Wdrożono aplikację na Heroku z bazą danych PostgreSQL.</value></data>
-    <data name="project3Title"><value>Panel zarządzania zadaniami.</value></data>
-    <data name="project3Description"><value>Opracowany panel do zarządzania zadaniami przy użyciu HTML, CSS, JavaScript i Angular.
+        Zaprojektowałem responsywny interfejs użytkownika i wdrożyłem ORM Django w celu zapewnienia wydajnych interakcji z bazami danych.
+        </value></data>
+    <data name="project3Title"><value>Panel do zarządzania zadaniami.</value></data>
+    <data name="project3Description"><value>Opracowałem panel do zarządzania zadaniami przy użyciu HTML, CSS, JavaScript i Angular.
         Aplikacja pomaga zespołom efektywnie zarządzać projektami i zadaniami.
-        Zaimplementowano interfejs „przeciągnij i upuść” do organizacji zadań oraz system powiadamiania o aktualizacjach w czasie rzeczywistym.</value></data>
+        Zaimplementowałem interfejs „przeciągnij i upuść” do organizacji zadań oraz system powiadamiania o aktualizacjach w czasie rzeczywistym.</value></data>
 
     <data name="fullName"><value>Imię i Nazwisko</value></data>
     <data name="email"><value>Adres email</value></data>

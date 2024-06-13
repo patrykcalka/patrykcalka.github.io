@@ -46,12 +46,6 @@ function applyTranslations (translations) {
     });
 }
 
-// document.getElementById('languageSelector').addEventListener('change', function (event) {
-//     const selectedLanguage = event.target.value;
-//     loadAndApplyTranslations(selectedLanguage);
-// });
-
-
 document.addEventListener('DOMContentLoaded', function () {
     const initialLanguage = 'pl';
     loadAndApplyTranslations(initialLanguage);

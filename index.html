@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-    <script src="JavaScript/animations.js" rel="script"></script>
+    <script src="JavaScript/controller.js" rel="script"></script>
+    <script src="JavaScript/cookies.js" rel="script"></script>
+    <script src="JavaScript/model.js" rel="script"></script>
     <script src="JavaScript/translation.js" rel="script"></script>
+
     <title>Portfolio | Patryk Całka</title>
 </head>
 <body>
@@ -17,17 +19,17 @@
         <i class="fa-solid fa-bars" id="menu-icon"></i>
 
         <nav class="navbar">
-            <a href="#home" class="active" data-translate-key="home"></a>
-            <a href="#about" data-translate-key="about"></a>
-            <a href="#skills" data-translate-key="skills"></a>
-            <a href="#portfolio" data-translate-key="portfolio"></a>
-            <a href="#contact" data-translate-key="contact"></a>
+            <a href="#home" class="active" data-translate-key="home" data-navigation="home"></a>
+            <a href="#about" data-translate-key="about" data-navigation="about"></a>
+            <a href="#skills" data-translate-key="skills" data-navigation="skills"></a>
+            <a href="#portfolio" data-translate-key="portfolio" data-navigation="portfolio"></a>
+            <a href="#contact" data-translate-key="contact" data-navigation="contact"></a>
             <a href="#" class="dropdown-item" data-language="en">EN</a>
             <a href="#" class="dropdown-item" data-language="pl">PL</a>
         </nav>
     </header>
 
-    <section class="home" id="home">
+    <section class="home hidden" id="home">
         <div class="home-content">
             <div><h3 data-translate-key="greeting"></h3></div>
             <div><h1 data-translate-key="name"></h1></div>
@@ -42,7 +44,7 @@
         </div>
     </section>
 
-    <section class="about" id="about">
+    <section class="about hidden" id="about">
         <div class="about-img">
             <img src="Images/avatar2.jpg" alt="">
         </div>
@@ -53,7 +55,7 @@
         </div>
     </section>
 
-    <section class="skills" id="skills">
+    <section class="skills hidden" id="skills">
         <div><h2 class="heading" data-translate-key="skills"></h2></div>
 
         <div class="skills-container">
@@ -84,7 +86,7 @@
         </div>
     </section>
 
-    <section class="portfolio" id="portfolio">
+    <section class="portfolio hidden" id="portfolio">
         <div><h2 class="heading" data-translate-key="portfolio"></h2></div>
 
         <div class="portfolio-container">
@@ -113,7 +115,7 @@
         </div>
     </section>
 
-    <section class="contact" id="contact">
+    <section class="contact hidden" id="contact">
         <div><h2 class="heading" data-translate-key="contact"></h2></div>
 
         <form action="#">
@@ -134,10 +136,6 @@
     <footer class="footer">
         <div class="footer-text">
             <div><p  data-translate-key="copyright"></p></div>
-        </div>
-
-        <div class="footer-iconTop">
-            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
         </div>
     </footer>
 

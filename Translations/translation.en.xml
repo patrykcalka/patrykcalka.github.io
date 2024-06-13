@@ -14,9 +14,11 @@
 
     <data name="aboutMe"><value>About Me</value></data>
     <data name="descriptionAboutMe"><value>Aspiring Computer Science student with a passion for software development and a strong foundation in various programming languages and frameworks.
-        Proficient in Java + Spring Boot, Python + Django, HTML, CSS, JavaScript and Angular. Eager to apply and expand my skills through practical experiences and collaborative projects.
-        Known for problem-solving abilities, attention to detail, and a continuous drive to learn and improve. Seeking opportunities to contribute to innovative projects and grow professionally in the tech industry.</value></data>
-    <data name="button"><value>Read more</value></data>
+        Proficient in Java + Spring Boot, Python + Django, HTML, CSS, JavaScript and Angular.
+        Eager to apply and expand my skills through practical experiences and collaborative projects.
+        Known for problem-solving abilities, attention to detail, and a continuous drive to learn and improve.
+        Seeking opportunities to contribute to innovative projects and grow professionally in the tech industry.
+    </value></data>
 
     <data name="descriptionJava"><value>Java + Spring Boot</value></data>
     <data name="descriptionPython"><value>Python + Django</value></data>
@@ -25,15 +27,18 @@
 
     <data name="project1Title"><value>Online Bookstore Management System</value></data>
     <data name="project1Description"><value>Developed a comprehensive online bookstore management system using Java and Spring Boot.
-        The application supports user authentication, book catalog management, and order processing. Implemented RESTful APIs for communication between the frontend and backend,
+        The application supports user authentication, book catalog management, and order processing.
+        Implemented RESTful APIs for communication between the frontend and backend,
         ensuring secure and efficient data handling. Integrated a MySQL database for storing user information, book details, and order records.</value></data>
     <data name="project2Title"><value>Personal Finance Tracker</value></data>
     <data name="project2Description"><value>Created a web-based personal finance tracker using Python and Django.
-        The application allows users to track their income, expenses, and savings. Designed a responsive user interface and implemented Django's ORM
-        for efficient database interactions. Deployed the application on Heroku with a PostgreSQL database.</value></data>
+        The application allows users to track their income, expenses, and savings.
+        Designed a responsive user interface and implemented Django's ORM
+        for efficient database interactions.</value></data>
     <data name="project3Title"><value>Task Management Dashboard</value></data>
     <data name="project3Description"><value>Developed a dynamic task management dashboard using HTML, CSS, JavaScript, and Angular.
-        The application helps teams manage their projects and tasks efficiently. Implemented a drag-and-drop interface for task organization and a real-time notification system for updates.</value></data>
+        The application helps teams manage their projects and tasks efficiently.
+        Implemented a drag-and-drop interface for task organization and a real-time notification system for updates.</value></data>
 
     <data name="fullName"><value>Full Name</value></data>
     <data name="email"><value>Email Address</value></data>
